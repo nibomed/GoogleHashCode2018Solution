@@ -1,4 +1,4 @@
-#GoogleHashCode2018Solution
+#hashcodesolved
 
 Self-driving rides
 
