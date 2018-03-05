@@ -5,7 +5,7 @@ Self-driving rides
 More than 48 million score.
 
 Main idea - find best ride for each car when car becomes empty.
-To find best we calculate some rate. Biggest rate - better ride.
+To find it we calculate some rate for each ride. Biggest rate - better ride.
 
                                   how_much_score_I_will_get_if_car_took_this_ride_right_now
     basicRate = f(car, ride) =  -------------------------------------------------------------
