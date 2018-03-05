@@ -117,7 +117,7 @@
     <None Include="..\..\GoogleHashCode2018Simulator\a_example.in" />
     <None Include="..\..\GoogleHashCode2018Simulator\d_metropolis.in" />
     <None Include="..\..\GoogleHashCode2018Simulator\e_high_bonus.in" />
-    <None Include="..\Debug\b_should_be_easy.in" />
+    <None Include="b_should_be_easy.in" />
     <None Include="c_no_hurry.in" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
