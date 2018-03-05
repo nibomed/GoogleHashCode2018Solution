@@ -14,6 +14,6 @@ To find it we calculate some rate for each ride. Biggest rate - better ride.
 
     progressiveRate = r(car, current_ride) := f(car, current_ride) + Max(f(CAR, ride0), f(CAR, ride1), ... f(CAR, rideN))
        where CAR - state of car after finishing current_ride
-             ride0, ride1, ... rideN - orders that have sense after finishing current_ride
+             ride0, ride1, ... rideN - rides that have sense after finishing current_ride
 
 basicRate bad where we have long rides. Like in metropolis test.
