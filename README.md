@@ -12,8 +12,8 @@ To find it we calculate some rate for each ride. Biggest rate - better ride.
                                      how_much_time_car_will_spend_to_finish_this_ride
 
 
-    progressiveRate = r(car, current_ride) := f(car, current_ride) + Max(f(CAR, ride0), f(CAR, ride1), ... f(CAR, rideN))
+    progressiveRate = r(car, current_ride) = f(car, current_ride) + Max(f(CAR, ride0), f(CAR, ride1), ... f(CAR, rideN))
        where CAR - state of car after finishing current_ride
              ride0, ride1, ... rideN - rides that have sense after finishing current_ride
 
-basicRate bad where we have long rides. Like in metropolis test.
+`basicRate` rate is bad in cases where we have long rides. Like in metropolis test.
